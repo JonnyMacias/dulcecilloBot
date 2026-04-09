@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Terapeuta - Dulcecillo Bot</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for typography -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="background-animation">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <div class="chat-container">
+        <!-- Header -->
+        <header class="chat-header">
+            <div class="avatar-container">
+                <div class="avatar-glow"></div>
+                <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Serenity&backgroundColor=transparent"
+                    alt="Serenity Bot Avatar" class="avatar">
+            </div>
+            <div class="header-info">
+                <h1>Dulcecillo Bot</h1>
+                <p>Tu Terapeuta Virtual <span class="status-dot"></span></p>
+            </div>
+            <button class="options-btn"><i class="fas fa-ellipsis-v"></i></button>
+        </header>
+
+        <!-- Chat Output -->
+        <main class="chat-box" id="chat-box">
+            <!-- Messages will be injected here via JS -->
+        </main>
+
+        <!-- Input Area -->
+        <footer class="chat-input-area">
+            <div class="input-wrapper">
+                <input type="text" id="user-input" placeholder="Escribe lo que sientes..." autocomplete="off">
+                <button id="send-btn" class="send-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
