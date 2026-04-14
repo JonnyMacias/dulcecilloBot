@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         showTypingIndicator();
         setTimeout(() => {
             removeTypingIndicator();
-            const initialMessage = 'Hola. Soy Dulcecillo Bot, tu espacio seguro. Estoy aquí para escucharte sin juzgar. ¿Cómo te sientes hoy?';
+            const initialMessage = 'Hola. Soy DulceBM Bot, tu espacio seguro. Estoy aquí para escucharte sin juzgar. ¿Cómo te sientes hoy?';
             addMessage(initialMessage, 'bot');
         }, 1500);
     }, 500);
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const requestBody = {
                 systemInstruction: {
                     parts: [{
-                        text: "Eres Dulcecillo Bot, una inteligencia artificial especializada en soporte emocional y escucha activa, actuando como un terapeuta empático. Tus respuestas deben ser cálidas, sin juicios y fomentando la reflexión. Mantén tus respuestas en español, que sean relativamente breves (1 a 3 párrafos cortos) y haz preguntas para que el usuario continúe expresándose si lo ves conveniente."
+                        text: "Eres DulceBM Bot, una inteligencia artificial especializada en soporte emocional y escucha activa, actuando como un terapeuta empático. Tus respuestas deben ser cálidas, sin juicios y fomentando la reflexión. Mantén tus respuestas en español, que sean relativamente breves (1 a 3 párrafos cortos) y haz preguntas para que el usuario continúe expresándose si lo ves conveniente."
                     }]
                 },
                 contents: conversationHistory
